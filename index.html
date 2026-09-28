@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aditya Photography</title>
+<meta name="description" content="Aditya Photography — explore beautiful photographs.">
+<meta name="theme-color" content="#111827">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">Aditya <span>Photography</span></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="admin.html" class="admin-link">Admin</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">PHOTO GALLERY</p>
+      <h1>Aditya Photography</h1>
+      <p>Discover photographs, one beautiful moment at a time.</p>
+      <div class="search"><input id="search" placeholder="Search photos, captions or tags..."><span>⌕</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Latest Photos</h2><span id="count"></span></div>
+    <div id="gallery" class="grid"></div>
+    <p id="empty" class="empty hidden">No photos found.</p>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Aditya Photography</footer>
+<script src="app.js"></script>
+</body>
+</html>
